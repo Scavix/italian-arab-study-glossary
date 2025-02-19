@@ -64,28 +64,31 @@
         <div class="header">
             <h1>Arabic-Italian Glossary</h1>
         </div>
-        <div class="glossary">
-            <div class="glossary-item">
-                <div class="arabic">مرحبا</div>
-                <div class="italian">Ciao</div>
-            </div>
-            <div class="glossary-item">
-                <div class="arabic">شكرا</div>
-                <div class="italian">Grazie</div>
-            </div>
-            <div class="glossary-item">
-                <div class="arabic">نعم</div>
-                <div class="italian">Sì</div>
-            </div>
-            <div class="glossary-item">
-                <div class="arabic">لا</div>
-                <div class="italian">No</div>
-            </div>
-            <div class="glossary-item">
-                <div class="arabic">حب</div>
-                <div class="italian">Amore</div>
-            </div>
+        <div class="glossary" id="glossary">
+            <!-- Glossary items will be inserted here by JavaScript -->
         </div>
     </div>
+    <script>
+        async function loadGlossary() {
+            const response = await fetch('glossary.txt');
+            const text = await response.text();
+            const glossary = document.getElementById('glossary');
+            const lines = text.split('\n');
+
+            lines.forEach(line => {
+                const parts = line.split(' : ');
+                if (parts.length === 2) {
+                    const italian = parts[0].trim();
+                    const arabic = parts[1].trim();
+                    const glossaryItem = document.createElement('div');
+                    glossaryItem.className = 'glossary-item';
+                    glossaryItem.innerHTML = `<div class="italian">${italian}</div><div class="arabic">${arabic}</div>`;
+                    glossary.appendChild(glossaryItem);
+                }
+            });
+        }
+
+        loadGlossary();
+    </script>
 </body>
 </html>
