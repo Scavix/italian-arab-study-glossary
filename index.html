@@ -18,7 +18,7 @@
         .container {
             background-color: white;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 80%;
+            width: 90%;
             max-width: 800px;
             border-radius: 8px;
             overflow: hidden;
@@ -48,6 +48,7 @@
         .arabic, .italian {
             flex: 1;
             text-align: center;
+            word-wrap: break-word;
         }
         .arabic {
             font-size: 1.2em;
@@ -56,6 +57,12 @@
         .italian {
             font-size: 1.2em;
             color: #555;
+        }
+        @media (max-width: 600px) {
+            .glossary-item {
+                flex-direction: column;
+                text-align: center;
+            }
         }
     </style>
 </head>
