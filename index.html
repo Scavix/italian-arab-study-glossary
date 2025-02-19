@@ -1,8 +1,91 @@
-<html>
-    <head>
-
-    </head>
-    <body>
-        
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arabic-Italian Glossary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .glossary {
+            display: flex;
+            flex-direction: column;
+        }
+        .glossary-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .glossary-item:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+        .glossary-item:nth-child(even) {
+            background-color: #ffffff;
+        }
+        .arabic, .italian {
+            flex: 1;
+            text-align: center;
+        }
+        .arabic {
+            font-size: 1.2em;
+            color: #333;
+        }
+        .italian {
+            font-size: 1.2em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Arabic-Italian Glossary</h1>
+        </div>
+        <div class="glossary">
+            <div class="glossary-item">
+                <div class="arabic">مرحبا</div>
+                <div class="italian">Ciao</div>
+            </div>
+            <div class="glossary-item">
+                <div class="arabic">شكرا</div>
+                <div class="italian">Grazie</div>
+            </div>
+            <div class="glossary-item">
+                <div class="arabic">نعم</div>
+                <div class="italian">Sì</div>
+            </div>
+            <div class="glossary-item">
+                <div class="arabic">لا</div>
+                <div class="italian">No</div>
+            </div>
+            <div class="glossary-item">
+                <div class="arabic">حب</div>
+                <div class="italian">Amore</div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
