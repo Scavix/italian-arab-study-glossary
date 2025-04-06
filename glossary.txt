@@ -53,21 +53,4 @@ Chiesa : knisa
 Moschea : jema
 Museo : musè/matthef
 Negozio : hanut
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Vorrei una pizza : nheb hued/wahda pizza
