@@ -54,3 +54,24 @@ Moschea : jema
 Museo : musè/matthef
 Negozio : hanut
 Vorrei una pizza : nheb hued/wahda pizza
+Casa : dar/diar
+Porta/e : beb/biben
+Sala : sala
+Cucina : cugina
+Bagno : toilette
+Camera/e da letto : bitnum/biutnum
+Balcone : barcun
+Scala/e : darja/druje
+Divano : divano/foteil
+Tavolo/u : taula/twewel
+Sedia/e : corsi/cresi
+Televisione/i : telvsa/tleffes
+Finestra/e : shbbeq/shbebbeq
+Pavimento : qaa
+Frigorifero : frigider
+Lavandino : lavabu
+Fornello : gas
+Forchetta/e : farscita/frascit
+Bicchiere/i : kess/kisen
+Cucchiaio/i : mgharfa/mgarf
+Piatto/i : san/osna
