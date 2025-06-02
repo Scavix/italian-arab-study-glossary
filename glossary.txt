@@ -1,6 +1,6 @@
 My age is 25 : omri amsa uae ishrin
 Sono italiano : ena talieni
-Bivo in bologna : naish fi Bologna
+Vivo in bologna : naish fi Bologna
 Sto mangiando : kaid nekel
 Sto bevendo : kaid noshrob
 Sto camminando : kaid nimshi
@@ -75,3 +75,4 @@ Forchetta/e : farscita/frascit
 Bicchiere/i : kess/kisen
 Cucchiaio/i : mgharfa/mgarf
 Piatto/i : san/osna
+Elettricità: dhau
